@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html</title>
+ <!-- BLINKING BACKGROUND-->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript">
+
+            function change_color(flag){
+                var color = null;
+                if (flag === true){
+                    var color = "red";
+                }else{
+                    var color = "green";
+                }
+                document.body.style.background = color;
+                flag = !flag
+                var t=setTimeout(function(){change_color(flag)},1000);
+            }
+        </script>
+</head>
+<body onload="change_color(true)">
+    <!-- LEFT PICTURES -->
+    <div id="leftPictures">
+      <img src="http://www.html-5-tutorial.com/images/paragraph-p-tag.gif" />
+      <img src="http://www.itinfopoint.com/contentsimages/20130429-HTML-Tag2.jpg">
+      <img src="http://blogs.dulwich-beijing.cn/18richardl/files/2014/05/7-27.jpg">
+      <img src="http://www.m51.com/x_betA_Fam_Web/simplpgbodytags.jpg">
+      <img src="http://cloud.addictivetips.com/wp-content/uploads/2011/08/css-tag.jpg">
+      <img src="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" />
+      <img src="http://ohdoylerules.com/content/images/css3.svg">
+    </div>
+    
+    <!-- MIDDLE BODY PART -->
+    
+    <div id="mainBody">
+      <p style="font-size: 30px; font-family:Times new roman">Html stands for Hyper Text Markup            Language and is mainly used to create documents on the web. A physicist in 1980 came up with an       idea of a language that could be used to create web pages so he followed through and created it       and called it html.It can be writen in many applications and progams found on the internet. It       is written with a series of "tags" and commands.There is another coding language called css or       Cascading style sheet.This is more of a decorating language.It is used in addition with HTML.        It was created when a man wanted to add more details to his html webpage.It is written with a        series of "spans" that decribe and give attributes to the HTML.A tag is a command that needs a       start, ending, and info in the middle.You would need to start with the greater than symbol,          then your command, and then a less than symbol. You would end it with the same thing but             instead you add a backslash before the command. Attributes are used to change the looks of your       webpage.Some examples are if you would want to change the font, font size, colors, borders,and       designs. Some examples of different tags would be if you wanted to write text you would need a       "p" tag. Also an "ol" tag is used to make an ordered list, a <em>"em"</em> tag is used to put        emphasis on a word or phrase, and a "img" tag is used to insert an image.</p>
+      
+      <a href="http://www.codecademy.com/">Click on this link if you want to learn how to code in a         matter of weeks.</a>
+      
+      <ol>This is what an ordered list looks like
+        <li>Can you see the bullet points next to this</li>
+      </ol>
+      <ul>This is what an unordered list looks like
+        <li>Can you tell the difference between the two</li>
+      </ul>
+      <table style="border-collapse:collapse;font-family: 'Droid Sans', sans-serif;" border="5px">
+        <tr style="background-color:yellow; font-family:'Droid Sans', sans-serif;">
+          <td><a href="welcome.html">Welcome</a></td>
+        </tr>
+        <tr style="background-color:yellow; font-family:'Droid Sans', sans-serif;">
+          <td><a href="aboutme.html">About Neal</a></td>
+        </tr>
+        <tr style="background-color:yellow; font-family:'Droid Sans', sans-serif;">
+          <td><a href="html.html">What is HTML and Css?</a></td>
+        </tr>
+        <tr style="background-color:yellow; font-family:'Droid Sans', sans-serif;">
+          <td><a href="hardware.html">What's in a computer?</a></td>
+        </tr>
+        <tr style="background-color:yellow; font-family:'Droid Sans', sans-serif;">
+          <td><a href="http://10.8.16.42/nealb/calculator/calc_html">Want a calculator?!</a></td>
+        </tr>
+        <tr style="background-color:yellow; font-family:'Droid Sans', sans-serif;">
+          <td><a href="http://10.8.16.42/nealb/game/game.html">Play my game!</a></td>
+        </tr>
+      </table>
+    </div>
+    
+    
+  <!-- PICTURES ON THE RIGHT -->
+    <div id="rightPictures">
+      <img src="http://www.html-5-tutorial.com/images/paragraph-p-tag.gif">
+      <img src="http://www.itinfopoint.com/contentsimages/20130429-HTML-Tag2.jpg">
+      <img src="http://blogs.dulwich-beijing.cn/18richardl/files/2014/05/7-27.jpg">
+      <img src="http://www.m51.com/x_betA_Fam_Web/simplpgbodytags.jpg">
+      <img src="http://cloud.addictivetips.com/wp-content/uploads/2011/08/css-tag.jpg">
+      <img src="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png">
+      <img src="http://ohdoylerules.com/content/images/css3.svg">
+    </div>
+</body>
+</html>
